@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.total {
+	width: 100%;
+	background-color: #6b6e70;
+}
+.head {
+	margin-bottom: 5%;
+}
+.barranavegacion {
+	background-color: #05091f;
+	width: 100%;
+	padding: 0%;
+	align-items: flex-end;
+	font-size: 15pt;
+	justify-content: space-between;
+	list-style-type: none;
+	flex-direction: row;
+
+	font-family: "LithosPro-Light";
+}
+.ab {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.bar {
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menusup {
+	justify-content: space-between;
+	list-style: none;
+	align-content: space-between;
+	align-items: stretch;
+	display: inline-block;
+}
+.opc {
+	display: inline-block;
+}
+.pag {
+	font-size: 16pt;
+	color: #d8cdcd;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 17pt;
+}
+.pag:hover {
+	background-color: #0a2496;
+}
+
+.calculadora {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #021929;
+	width: 400px;
+	height: 500px;
+	border-radius: 25px;
+}
+.calculadora td button {
+	display: block;
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+}
+.total {
+	width: 100%;
+	background-color: #6b6e70;
+}
+.title {
+	text-align: left;
+	font-size: 60pt;
+	color: #ffffff;
+}
+
+#resultado {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background-color: rgb(226, 85, 85);
+	border-radius: 25px;
+	overflow-y: scroll;
+}

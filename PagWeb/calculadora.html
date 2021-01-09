@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" class="total">
+	<head>
+		<title>Calculadora con JavaScript</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="Widht=device-width, user-scalable = no, initial -scale = 1,maximun-scale=1, minimun-scale=1"
+		/>
+		<meta charset="UTF-8" />
+		<link type="text/css" href="Estilo/calculadora.css" rel="stylesheet" />
+	</head>
+	<body onload="init();">
+		<header class="head">
+			<div class="bar">
+				<div class="ab">
+					<h1 class="title">My Project</h1>
+
+					
+				</div>
+				<div>
+					<nav class="barranavegacion">
+						<ul class="menusup">
+							<li class="opc"><a class="pag" href="inicio.html">Inicio</a></li>
+							<li class="opc"><a class="pag" href="Sobremi.html">Sobre Mi</a></li>
+							<li class="opc"><a class="pag" href="habilidades.html">Habilidades</a></li>
+							<li class="opc"><a class="pag" href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<table class="calculadora">
+			<tr>
+				<td colspan="4"><span id="resultado"></span></td>
+			</tr>
+			<tr>
+				<td><button id="siete">7</button></td>
+				<td><button id="ocho">8</button></td>
+				<td><button id="nueve">9</button></td>
+				<td><button id="division">/</button></td>
+			</tr>
+			<tr>
+				<td><button id="cuatro">4</button></td>
+				<td><button id="cinco">5</button></td>
+				<td><button id="seis">6</button></td>
+				<td><button id="multiplicacion">*</button></td>
+			</tr>
+			<tr>
+				<td><button id="uno">1</button></td>
+				<td><button id="dos">2</button></td>
+				<td><button id="tres">3</button></td>
+				<td><button id="resta">-</button></td>
+			</tr>
+			<tr>
+				<td><button id="igual">=</button></td>
+				<td><button id="reset">C</button></td>
+				<td><button id="cero">0</button></td>
+				<td><button id="suma">+</button></td>
+			</tr>
+		</table>
+		<script src="js/calculadora.js"></script>
+	</body>
+</html>

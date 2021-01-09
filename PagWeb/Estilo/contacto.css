@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.total {
+	width: 100%;
+	background-color: #6b6e70;
+}
+.title {
+	text-align: left;
+	font-size: 60pt;
+	color: #ffffff;
+}
+#cuerpo {
+	width: 100%;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+@font-face {
+	font-family: "LithosPro-Light";
+	src: url(../fuente/LithosPro-Light.otf)
+}
+@font-face {
+	font-family: "Aileron";
+	src: url(../fuente/Aileron-Regular.otf);
+}
+.head {
+	margin-bottom: 5%;
+}
+.barranavegacion {
+	background-color: #05091f;
+	width: 100%;
+	padding: 0%;
+	align-items: flex-end;
+	font-size: 15pt;
+	justify-content:space-between;
+	list-style-type: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: "LithosPro-Light";
+}
+.bar{
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menusup {
+	justify-content: space-between;
+	list-style: none;
+	align-content: space-between;
+	align-items: stretch;
+	display: inline-block;
+}
+.opc {
+	display: inline-block;
+}
+.pag {
+	font-size: 16pt;
+	color: #d8cdcd;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 17pt;
+}
+.pag:hover {
+	background-color: #0a2496;
+}
+.seccion {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0%;
+	justify-content: space-between;
+	/*background-color: #07a99c;*/
+	text-align: center;
+}
+
